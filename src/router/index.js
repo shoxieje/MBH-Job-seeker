@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 
 import Vue from "vue";
 import VueRouter from "vue-router"
@@ -6,11 +5,11 @@ import VueRouter from "vue-router"
 Vue.use(VueRouter);
 
 const routes = [
-    // {
-    //     path: "/about-us",
-    //     name: "AboutUs",
-    //     component: () => import("../views/AboutUs.vue"),
-    // },
+    {
+        path: "/Seasonality",
+        name: "Seasonality",
+        component: () => import("../views/Seasonality/Seasonality.vue"),
+    },
 
 ];
 
