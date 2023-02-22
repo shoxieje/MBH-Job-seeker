@@ -99,7 +99,7 @@
 
 <script>
     export default {
-        name: "ForgetPassword",
+        name: "JobSeekerForgetPassword",
 
         computed: {
             // Computed boolean variable returning whether the 'loginEmail' input is a valid email address by testing a regular expression

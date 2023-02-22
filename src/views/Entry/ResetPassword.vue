@@ -87,7 +87,7 @@
 
 <script>
     export default {
-        name: "ResetPassword",
+        name: "JobSeekerResetPassword",
         props: ["", ""],
         components: {},
         computed: {
