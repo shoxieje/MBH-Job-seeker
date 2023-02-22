@@ -10,7 +10,11 @@ const routes = [
         name: "Seasonality",
         component: () => import("../views/Seasonality/Seasonality.vue"),
     },
-
+    {
+        path: "/jobseeker/signin",
+        name: "JobSeekerSignIn",
+        component: () => import("../views/Entry/Signin.vue"),
+    },
 ];
 
 const router = new VueRouter({

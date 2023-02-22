@@ -1,0 +1,535 @@
+// Import custom variables, bootstrap files and font file
+@import custom-variables
+@import '~/node_modules/bootstrap/scss/bootstrap.scss'
+@import '~/node_modules/bootstrap-vue/src/index.scss'
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:wght@400;700&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Bevan:wght@100;200&display=swap')
+
+// Fonts
+$noticia-text: 'Noticia Text', serif
+$bevan: 'Bevan', serif
+
+.title
+	color: $black-mbh-0
+	padding-bottom: 1rem
+
+// Text color for New Color Palette
+.text-primary
+	color: $black-mbh-0
+
+.text-secondary
+	color: $blue-mbh-0
+
+.text-dark
+	color: $mbh-navy
+
+.text-tertiary
+	color: $mbh-orange-3
+
+.text-red
+	color: $mbh-red
+
+.text-blue
+	color: $blue-mbh-0
+
+//Max-width
+.mw-60
+	max-width: 60rem
+	margin-inline: auto
+
+.mw-80
+	max-width: 80rem
+	margin-inline: auto
+
+
+//Border
+.bottom-border-1
+	border-style: none none solid none
+	border-color: $mbh-gray-0
+	border-width: 1px
+
+//All buttons
+.nav-btn 
+	font-size: 16pt !important
+	font-weight: bold
+
+// Old color
+.orange
+	color: $mbh-red
+
+.blue
+	color: $mbh-blue
+
+// General
+body
+	font-family: $noticia-text
+	font-weight: normal
+
+h1
+	font-size: xx-large
+
+.page-container
+	position: relative
+	background-color: #F8F8F9  
+
+.main-content
+	padding-bottom: 2.5rm
+
+label, h1, h2, h3, h4, h5, h6
+	font-weight: bold
+
+.link
+	text-decoration: underline
+
+#registerBusinessBtn
+	color: whitesmoke
+	width: 50%
+	margin: auto
+
+.hero-section-top
+	padding: 150px 0
+	background-position: center
+	background-size: cover
+	position: relative
+	.text-section
+		position: relative
+		z-index: 1
+	&:after
+		content: ""
+		position: absolute
+		background-color: rgba(255,255,255,0.2)
+		left: 0
+		width: 100%
+		top: 0
+		height: 100%
+		z-index: 0
+
+.page-header
+	display: inline-block
+	text-align: center
+	background: rgba(255,255,255, 0.7)
+	border-radius: 20px
+
+.footer-links
+	text-align: center
+	justify-content: center
+
+
+
+.header-phone
+	color: $mbh-blue
+	padding: 1rem
+	font-size: 24px
+	font-weight: bold
+
+.header-email
+	color: $mbh-blue
+	padding: 1rem 1rem
+	font-size: 22px
+	// font-weight: bold
+
+.header-button
+	height: 45px
+	margin: 1rem 2rem auto
+
+nav
+	border-bottom: 1px solid #e0e0e0
+	
+
+// Footer
+.footer
+	position: absolute
+	display: block
+	left: 0
+	right: 0
+
+.footer-container
+	color: white
+	font-size: 1.2em
+
+// Landing
+.home-top
+	width: 100%
+
+.landing-container
+	height: 0
+
+.landing-section
+	margin-top: 40vh
+	margin-left: 15vw
+	background-color: rgba(255,255,255, 0.9)
+	padding: 30px 50px
+	border-radius: 20px
+	max-width: 800px
+	margin-right: 0vh
+
+.landing-info
+	width: 80%
+	text-align: center
+	font-family: $noticia-text
+	font-size: 1.8rem
+	color: $mbh-blue
+	margin: 3rem auto
+
+.landing-info-2
+	font-family: $bevan
+
+.landing-caption
+	display: flex
+	width: 92%
+	margin: 1rem auto
+	align-items: center
+	justify-content: center
+
+.landing-caption-left
+	width: 50%
+	margin: auto
+
+.landing-caption-right
+	width: 50%
+	margin: auto
+
+.landing-business
+	margin-right: 0em
+
+.landing-jobseeker
+	margin-left: 0em
+
+.landing-business-heading
+	color: $mbh-blue
+	text-align: left
+	padding-left: 1em
+
+.landing-business-body
+	list-style-type: none
+	font-size: 1.8em
+	text-align: left
+	color: $mbh-red
+
+.landing-jobseeker-heading
+	color: $mbh-blue
+	text-align: right
+
+.landing-jobseeker-body
+	list-style-type: none
+	font-size: 1.8em
+	text-align: right
+	color: $mbh-red
+
+.landing-caption-photo-right
+	margin: 2rem auto
+
+.landing-caption-photo-left
+	margin: 2rem auto
+
+.landing-caption-text-left
+	width: 90%
+	text-align: center
+	font-family: $noticia-text
+	font-size: 1.2rem
+	padding: 0.5rem
+	margin: auto
+
+.landing-caption-text-right
+	width: 90%
+	text-align: center
+	font-family: $noticia-text
+	font-size: 1.2rem
+	padding: 0.5rem
+
+.landing-supporters
+	margin: 4rem
+	padding: 1rem 3rem
+	text-align: center
+	color: $mbh-blue
+
+.landing-carousel
+	width: 80%
+	margin: auto
+
+.landing-carousel-info
+	width: 80%
+	text-align: center
+	font-family: $noticia-text
+	font-size: 1.8rem
+	color: $mbh-blue
+	margin: 1rem auto
+
+.landing-carousel-info-2
+	width: 100%
+	text-align: center
+	font-family: $noticia-text
+	font-size: 2.5rem
+	color: $mbh-blue
+	margin: 3rem auto
+
+.landing-lists
+	list-style-type: none
+
+// About Us		
+.about-us-header
+	background-image: url("../img/Check shirts Oct 17.jpg")
+	background-position: 30% 10%
+	padding: 200px 0
+
+.about-us-text
+	border-radius: 20px
+	background-color: white
+	font-size: 1.25rem
+	padding: 1rem 3rem
+
+.about-us-section
+	background-color: $soil
+
+.about-us-heading
+	// color: $hyperlink
+	margin-top: 1rem
+
+.about-us-logo
+	width: 90%
+	margin: 0rem auto
+	display: block
+
+.about-us-img
+	width: 60%
+	margin: auto
+	text-align: center
+
+.about-us-img-container
+	width: 90%
+	margin: 1rem auto
+	justify-content: center
+	padding: 1rem
+
+.about-us-img
+	margin: 1rem auto
+	display: block
+
+.about-us-img-caption
+	font-size: 1.3rem
+	font-weight: bold
+	text-align: center
+
+// Contact Us
+.contact-us-header
+	background-image: url("../img/caption/Oztech drones - seeding - spraying - Jamin Flemming Bundaberg.jpg")
+	background-position: 100% 65%
+	padding: 200px 0
+
+#contact-form-area
+	border-radius: 20px
+	background-color: $mbh-blue2
+	border-color: $mbh-blue2
+	border-style: solid
+	margin: 5rem -2rem
+
+.contact-us-logo
+	margin: 2rem -2rem
+	align-self: center
+	width: 500px
+
+.contact-us-container
+	margin-bottom: 3rem
+
+.contact-us-text
+	font-size: 1.5rem
+
+.contact-us-caption
+	text-align: right
+	margin-right: 1rem
+	margin-bottom: 3rem
+	margin-top: -2rem
+	position: relative
+
+.contact-us-info
+	text-align: center
+	color: $mbh-blue
+	border-radius: 20px
+	border-color: $mbh-blue
+	border-style: solid
+	padding: 0.25rem
+	font-weight: bolder
+	font-size: 1.25rem
+	margin: 0.20rem auto
+	width: 400px
+
+.contact-us-info-orange
+	color: $mbh-red
+	padding: 0.5rem
+
+// Login
+.login-top
+	padding: 70px 0
+	// background-image: url("../img/BEN-HINMAN-AND-DARLEA-DANCIN-CHILLI-2019-FUTURITY-2.jpeg")
+	background-size: cover
+
+#login-box
+	border-radius: 10px
+	padding: 15px
+
+#login
+	background-color: #f1f1f1
+
+#signup-list
+	padding-top: 1rem
+	color: black
+
+// Business Registration
+.business-signup-header
+	background-image: url("../img/caption/IMG_4584.jpg")
+	background-position: 0% 70%
+
+.business-signup-caption
+	text-align: right
+	margin-right: 1rem
+	margin-bottom: 3rem
+	margin-top: -2rem
+	position: relative
+
+.business-signup-pricing
+	margin-top: 2rem
+
+.business-signup-heading
+	color: $mbh-red
+	font-size: 1rem
+
+.business-signup-text
+	font-size: 1.4rem
+	text-align: center
+
+.register-form
+	padding: 50px 0
+
+.registration-section
+	background-color: rgba($mbh-blue, 0.8)
+
+.registration-box
+	background-color: white
+	border-radius: 20px
+	padding: 5rem
+	justify-content: center
+
+// User or Subscriber Registration
+.user-signup-header
+	background-image: url("../img/caption/IMG_9054.png")
+	background-position: 0% 45%
+
+.user-signup-caption
+	text-align: right
+	margin-right: 1rem
+	margin-bottom: 3rem
+	margin-top: -2rem
+	position: relative
+
+.user-signup-section
+	background-color: rgba($mbh-blue, 0.8)
+
+.user-signup-box
+	background-color: white
+	border-radius: 20px
+	padding: 5rem
+	justify-content: center
+
+.user-signup-text
+	font-size: 1.3rem
+	text-align: center
+	padding: 1rem 0rem
+
+.user-signup-content
+	width: 55%
+
+.user-signup-testimony
+	text-align: center
+	max-width: 250px
+	border-color: $mbh-red
+	border-width: 0.3rem
+	border-style: solid
+	border-radius: 10px
+	padding: 1rem
+	margin-right: 4rem
+	margin-top: -22rem
+	margin-bottom: 10rem
+
+.register-form
+	padding: 50px 0
+
+// Terms and Conditions
+.termsArea
+	background-color: $mbh-red
+
+.termsContent
+	background-color: white
+	border-radius: 20px
+	ol
+		padding-left: 2rem
+
+		li
+			padding-left: 1rem
+
+// Subscription Details
+.subscribe-benefits
+	font-size: 1.25rem
+
+.subscribe-options
+	display: flex
+	text-align: center
+
+.subscribe-options-child
+	flex: 1
+
+// Seasonality
+.seasonality-container
+	margin-bottom: 2rem
+
+.seasonality-header
+	background-image: url("../img/picking-fruit 2.jpg")
+	background-position: 20% 40%
+	padding: 200px 0
+
+.seasonality-caption
+	text-align: right
+	margin-right: 1rem
+	margin-bottom: 3rem
+	margin-top: -2rem
+	position: relative
+
+// Search 
+.search-page
+	background-color: $mbh-blue1
+	background-size: cover
+	background-position: left center
+	padding: 3rem 0
+
+.search-input
+	background-color: white
+	border-radius: 10px
+
+.search-form
+	border-color: $mbh-blue
+	border-style: solid
+	border-radius: 20px
+
+// Payment
+.payment-screen
+	h1::after
+		content: ""
+		background-color: #ffe800
+		background: repeating-linear-gradient(45deg, #ffe800, #ffe800 0.5rem, #222 0.5rem, #222 1.0rem)
+		display: block
+		height: 0.5rem
+		margin-top: 1rem
+
+// My Companies
+.my-companies-page
+	background-color: $mbh-blue1
+
+.my-companies-data
+	background-color: white
+
+// Business View
+.business-view-page
+	background-color: rgba($mbh-blue2, 0.5)
+
+.business-view-area
+	border-radius: 30px
+	background-color: white
