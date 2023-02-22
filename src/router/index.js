@@ -15,6 +15,16 @@ const routes = [
         name: "JobSeekerSignIn",
         component: () => import("../views/Entry/Signin.vue"),
     },
+    {
+        path: "/jobseeker/forget-password",
+        name: "JobSeekerForgetPassword",
+        component: () => import("../views/Entry/ForgetPassword.vue"),
+    },
+    {
+        path: "/jobseeker/reset-password",
+        name: "JobSeekerResetPassword",
+        component: () => import("../views/Entry/ResetPassword.vue"),
+    },
 ];
 
 const router = new VueRouter({
