@@ -7,7 +7,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 import "./assets/styles/styles.sass";
 import "./assets/styles/custom-variables.sass";
+import Vuetify from 'vuetify'
+import 'vuetify/dist/vuetify.min.css'
 
+Vue.use(Vuetify)
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 
