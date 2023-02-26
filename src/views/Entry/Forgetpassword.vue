@@ -53,7 +53,7 @@
                                         Don't have an account?
                                         <router-link
                                             class="text-right cr-account"
-                                            to="/business/sign-up"
+                                            to="/jobseeker/sign-up"
                                             >Register</router-link
                                         >
                                     </p>

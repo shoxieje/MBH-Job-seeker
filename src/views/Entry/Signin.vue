@@ -50,7 +50,7 @@
                                             </label>
                                             <router-link
                                                 class="text-right cr-account"
-                                                to="/business/forget-password"
+                                                to="/jobseeker/forget-password"
                                                 >Forget your
                                                 password?</router-link
                                             >
@@ -85,7 +85,7 @@
                                             Don't have an account?
                                             <router-link
                                                 class="text-right cr-account"
-                                                to="/Business/Signup"
+                                                to="/jobseeker/Signup"
                                                 >Create an account</router-link
                                             >
                                         </p>

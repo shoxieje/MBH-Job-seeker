@@ -74,7 +74,7 @@
                             <b-button
                                 class="nav-btn text-white signin-btn"
                                 variant="primary"
-                                to="/business/signin"
+                                to="/jobseeker/signin"
                                 >Sign in</b-button
                             >
                         </div>

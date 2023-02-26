@@ -49,21 +49,21 @@
                         </li>
                         <li class="mb-2">
                             <router-link
-                                to="/Business-Signup"
+                                to="/business/signup"
                                 class="text-white"
                                 >Join as Business</router-link
                             >
                         </li>
                         <li class="mb-2">
                             <router-link
-                                to="/Business-Signup"
+                                to="/jobseeker/signup"
                                 class="text-white"
                                 >Join as Accommodation Provider</router-link
                             >
                         </li>
                         <li class="mb-2">
                             <router-link
-                                to="/JobSeeker-Signup"
+                                to="/jobseeker/signup"
                                 class="text-white"
                                 >Join as JobSeeker</router-link
                             >
